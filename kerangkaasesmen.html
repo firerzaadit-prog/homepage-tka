@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerangka Asesmen SMP - TKA Pusmendik</title>
+    <link rel="stylesheet" href="kerangkaasesmen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>EduLearn</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Beranda</a>
+                <a href="#" class="nav-link active">Kerangka Asesmen</a>
+                <a href="https://tka.kemendikdasmen.go.id/hasiltka/" class="nav-link">Rapor Pendidikan</a>
+                <a href="https://tkasmp.vercel.app/" class="btn-cta">
+                    <i class="fas fa-rocket"></i> Ayo Coba TKA
+                </a>
+            </div>
+            <div class="mobile-menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <section class="breadcrumb-section">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html"><i class="fas fa-home"></i> Beranda</a>
+                <i class="fas fa-chevron-right"></i>
+                <a href="#">Kerangka Asesmen</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>SMP/MTs</span>
+            </div>
+            <h1>Kerangka Asesmen TKA</h1>
+            <p>Mata Pelajaran Wajib - Jenjang SMP/MTs Sederajat</p>
+        </div>
+    </section>
+
+   <section class="tabs-section">
+        <div class="container">
+            <div class="tabs-wrapper">
+                <button class="tab-btn active" data-target="definisi">
+                    <i class="fas fa-book-open"></i>
+                    <span>Definisi</span>
+                </button>
+                
+                <button class="tab-btn" data-target="muatan">
+                    <i class="fas fa-layer-group"></i>
+                    <span>Muatan</span>
+                </button>
+                
+                <button class="tab-btn" data-target="kompetensi">
+                    <i class="fas fa-clipboard-check"></i>
+                    <span>Kompetensi</span>
+                </button>
+                
+                <button class="tab-btn" data-target="matriks">
+                    <i class="fas fa-table"></i>
+                    <span>Matriks Asesmen</span>
+                </button>
+                
+                <button class="tab-btn" data-target="contoh">
+                    <i class="fas fa-pen-to-square"></i>
+                    <span>Contoh Soal</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="container">
+            
+<div id="definisi" class="tab-content active-content" data-aos="fade-up">
+                
+                <div class="content-header">
+                    <h2>Definisi TKA SMP Matematika</h2>
+                    <p>Pemahaman dasar mengenai tujuan dan cakupan Tes Kemampuan Akademik</p>
+                </div>
+                <div class="definition-box">
+                    <div class="highlight-text">
+                        <p>Sebagaimana TKA Matematika SD/MI/sederajat, TKA Matematika SMP/MTs/sederajat juga mengukur kemampuan murid dalam memahami fakta, konsep, prinsip, dan prosedur matematika, serta kemampuan mereka dalam menerapkan pengetahuan matematika untuk menyelesaikan masalah (problem solving).</p>
+                    </div>
+                </div>
+
+                <div class="guidelines-header" style="margin-top: 80px; margin-bottom: 40px; text-align: center;">
+                    <h2 style="font-size: 32px; color: var(--secondary-color);">Panduan Mengerjakan TKA</h2>
+                    <p style="color: var(--text-light);">Perhatikan hal-hal berikut agar dapat mengerjakan tes dengan optimal</p>
+                </div>
+                <div class="guidelines-grid">
+                    <div class="guideline-card">
+                        <div class="guideline-number">1</div>
+                        <div class="guideline-content">
+                            <h4>Persiapan Teknis</h4>
+                            <p>Pastikan perangkat dan koneksi internet stabil. Gunakan browser terbaru (Chrome/Firefox) untuk performa optimal.</p>
+                        </div>
+                    </div>
+                    <div class="guideline-card">
+                        <div class="guideline-number">2</div>
+                        <div class="guideline-content">
+                            <h4>Manajemen Waktu</h4>
+                            <p>Alokasikan waktu dengan bijak untuk setiap mata pelajaran. Kerjakan soal yang mudah terlebih dahulu.</p>
+                        </div>
+                    </div>
+                    <div class="guideline-card">
+                        <div class="guideline-number">3</div>
+                        <div class="guideline-content">
+                            <h4>Fokus dan Konsentrasi</h4>
+                            <p>Cari tempat yang tenang dan bebas gangguan. Baca setiap soal dengan teliti sebelum menjawab.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-header" style="margin-top: 80px; margin-bottom: 40px; text-align: center;">
+                    <h2 style="font-size: 32px; color: var(--secondary-color);">Pertanyaan yang Sering Diajukan</h2>
+                    <p style="color: var(--text-light);">Temukan jawaban untuk pertanyaan umum seputar TKA SMP</p>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFaq(this)">
+                            <h4>Bagaimana sistem penilaian TKA SMP Matematika?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>TKA SMP Matematika menggunakan sistem penilaian dengan skala 0-100.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFaq(this)">
+                            <h4>Berapa lama waktu yang tersedia?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Total waktu yang disediakan adalah 60 Menit</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="margin-bottom: 60px;"></div>
+
+            </div>
+
+            <div id="muatan" class="tab-content" style="display: none;">
+                <div class="text-content-wrapper">
+                    <h3 class="text-title">Muatan</h3>
+                    <p class="text-paragraph">
+                        Muatan TKA Matematika SMP/MTs/sederajat merujuk pada elemen kurikulum atau materi matematika yang dipelajari murid yang ada pada Kurikulum 2013 dan Kurikulum Merdeka. Elemen ini meliputi:
+                    </p>
+                    <ul class="text-list">
+                        <li>bilangan,</li>
+                        <li>aljabar,</li>
+                        <li>geometri dan pengukuran, serta</li>
+                        <li>data dan peluang.</li>
+                    </ul>
+                    <p class="text-paragraph">
+                        Penggunaan logika matematika diintegrasikan langsung dengan elemen matematika yang tertera dalam kurikulum. Pengetahuan matematika diukur melalui permasalahan dalam konteks matematika dan permasalahan dalam konteks keseharian.
+                    </p>
+                </div>
+            </div>
+
+ <div id="kompetensi" class="tab-content" style="display: none;">
+    <div class="content-header">
+        <h2>Kompetensi</h2>
+        <p>Capaian kompetensi dan proses berpikir yang diharapkan</p>
+    </div>
+    
+    <div class="table-responsive">
+        <table class="competency-table">
+            <thead>
+                <tr>
+                    <th width="25%">Level Kognitif</th>
+                    <th width="25%">Proses Berpikir</th>
+                    <th width="50%">Deskripsi Proses Berpikir</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4" class="level-cell">
+                        <span class="level-badge l1">Level 1</span>
+                        <strong>Pengetahuan & Pemahaman</strong>
+                        <br><em>(Knowing and Understanding)</em>
+                    </td>
+                    <td><strong>Menghitung</strong></td>
+                    <td>Melakukan perhitungan berdasarkan prosedur yang mencakup operasi hitung aritmatika (+, -, ×, ÷, atau kombinasinya), operasi aljabar, atau operasi matematika lainnya.</td>
+                </tr>
+                <tr>
+                    <td><strong>Memahami informasi</strong></td>
+                    <td>Memahami informasi dari grafik fungsi, tabel, diagram, infografis, atau bentuk visual lainnya.</td>
+                </tr>
+                <tr>
+                    <td><strong>Mengelompokkan</strong></td>
+                    <td>Mengelompokkan objek berdasarkan fakta, konsep, dan prinsip matematika dalam cakupan sub-elemen.</td>
+                </tr>
+                <tr>
+                    <td><strong>Mengidentifikasi</strong></td>
+                    <td>Melakukan identifikasi terhadap objek menggunakan konsep, fakta, dan prinsip matematika dalam cakupan sub-elemen.</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="3" class="level-cell">
+                        <span class="level-badge l2">Level 2</span>
+                        <strong>Aplikasi</strong>
+                        <br><em>(Applying)</em>
+                    </td>
+                    <td><strong>Memodelkan</strong></td>
+                    <td>Memodelkan permasalahan kontekstual terkait cakupan sub-elemen ke dalam kalimat matematika.</td>
+                </tr>
+                <tr>
+                    <td><strong>Mengaplikasikan</strong></td>
+                    <td>Mengaplikasikan strategi dan operasi matematika (berupa operasi hitung, operasi aljabar, atau bentuk operasi lainnya) untuk menyelesaikan permasalahan yang melibatkan konsep dan prosedur matematis yang familiar dan rutin.</td>
+                </tr>
+                <tr>
+                    <td><strong>Menginterpretasikan</strong></td>
+                    <td>Memahami dan menjelaskan makna dari berbagai situasi, kejadian, pernyataan, representasi, atau masalah matematika.</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="5" class="level-cell">
+                        <span class="level-badge l3">Level 3</span>
+                        <strong>Penalaran</strong>
+                        <br><em>(Reasoning)</em>
+                    </td>
+                    <td><strong>Menganalisis</strong></td>
+                    <td>Menentukan, menjelaskan, dan menggunakan hubungan beberapa konsep, fakta, prinsip, atau prosedur matematika dalam cakupan sub-elemen.</td>
+                </tr>
+                <tr>
+                    <td><strong>Memecahkan masalah</strong></td>
+                    <td>Mengaitkan beberapa konsep, fakta, prinsip, prosedur, dan representasi matematika dalam cakupan sub-elemen, untuk menyelesaikan permasalahan dalam situasi baru atau konteks yang tidak rutin.</td>
+                </tr>
+                <tr>
+                    <td><strong>Mengevaluasi</strong></td>
+                    <td>Mengevaluasi alternatif strategi dan solusi dari suatu pemecahan masalah.</td>
+                </tr>
+                <tr>
+                    <td><strong>Menyimpulkan</strong></td>
+                    <td>Menarik kesimpulan yang valid dari informasi, data, atau bukti yang diberikan menggunakan konsep, fakta, prinsip, dan prosedur matematika dalam cakupan sub-elemen.</td>
+                </tr>
+                <tr>
+                    <td><strong>Melakukan generalisasi</strong></td>
+                    <td>Menyusun pernyataan matematis yang menggambarkan hubungan yang lebih umum terkait konsep, fakta, prinsip, dan prosedur dalam cakupan sub-elemen.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div id="matriks" class="tab-content" style="display: none;">
+    <div class="content-header">
+        <h2>Matriks Asesmen</h2>
+        <p>Distribusi materi, kompetensi, dan batasan ruang lingkup materi</p>
+    </div>
+    
+    <div class="table-responsive">
+        <table class="matrix-table">
+            <thead>
+                <tr>
+                    <th width="5%">No</th>
+                    <th width="15%">Elemen/ Materi</th>
+                    <th width="20%">Sub-elemen/ Submateri</th>
+                    <th width="40%">Kompetensi</th>
+                    <th width="20%">Batasan/ Catatan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="center-text">1</td>
+                    <td class="bold-text">Bilangan</td>
+                    <td class="bold-text">Bilangan Real</td>
+                    <td>
+                        <p class="intro-text">Memahami, mengaplikasikan, dan bernalar yang lebih tinggi untuk menyelesaikan permasalahan terkait cakupan sub-elemen berikut:</p>
+                        <ul class="detail-list">
+                            <li>Perbandingan dan sifat-sifat bilangan;</li>
+                            <li>Operasi aritmetika pada bilangan;</li>
+                            <li>Estimasi/perkiraan hasil perhitungan;</li>
+                            <li>Faktorisasi prima bilangan asli;</li>
+                            <li>Rasio (skala, proporsi, dan laju perubahan);</li>
+                            <li>Perbandingan senilai dan berbalik nilai.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Bilangan mencakup bilangan bulat, bilangan rasional dan irasional, bilangan berpangkat bulat, bilangan akar, dan bilangan dalam notasi ilmiah.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td rowspan="4" class="center-text">2</td>
+                    <td rowspan="4" class="bold-text">Aljabar</td>
+                    <td class="bold-text">Persamaan dan Pertidaksamaan Linier</td>
+                    <td>
+                        <p class="intro-text">Memahami, mengaplikasikan, dan bernalar yang lebih tinggi untuk menyelesaikan permasalahan terkait cakupan sub-elemen berikut:</p>
+                        <ul class="detail-list">
+                            <li>Persamaan linear satu variabel;</li>
+                            <li>Pertidaksamaan linear satu variabel;</li>
+                            <li>Sistem persamaan linear dua variabel.</li>
+                        </ul>
+                    </td>
+                    <td rowspan="4" class="center-text">-</td>
+                </tr>
+                <tr>
+                    <td class="bold-text">Bentuk Aljabar</td>
+                    <td>
+                        <p class="intro-text">Memahami, mengaplikasikan, dan bernalar yang lebih tinggi untuk menyelesaikan permasalahan terkait cakupan sub-elemen berikut:</p>
+                        <ul class="detail-list">
+                            <li>Bentuk aljabar dan sifat-sifat operasinya (komutatif, asosiatif, dan distributif).</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bold-text">Fungsi</td>
+                    <td>
+                        <p class="intro-text">Memahami, mengaplikasikan, dan bernalar yang lebih tinggi untuk menyelesaikan permasalahan terkait cakupan sub-elemen berikut:</p>
+                        <ul class="detail-list">
+                            <li>Relasi dan fungsi (domain, kodomain, range), serta penyajiannya.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bold-text">Barisan dan Deret</td>
+                    <td>
+                        <p class="intro-text">Memahami, mengaplikasikan, dan bernalar yang lebih tinggi untuk menyelesaikan permasalahan terkait cakupan sub-elemen berikut:</p>
+                        <ul class="detail-list">
+                            <li>Barisan berhingga bilangan;</li>
+                            <li>Deret berhingga bilangan.</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td rowspan="3" class="center-text">3</td>
+                    <td rowspan="3" class="bold-text">Geometri dan Pengukuran</td>
+                    <td class="bold-text">Objek Geometri</td>
+                    <td>
+                        <p class="intro-text">Memahami, mengaplikasikan, dan bernalar yang lebih tinggi untuk menyelesaikan permasalahan terkait cakupan sub-elemen berikut:</p>
+                        <ul class="detail-list">
+                            <li>Hubungan antar-sudut yang terbentuk oleh dua garis yang berpotongan, dan oleh dua garis sejajar yang dipotong suatu garis transversal (termasuk penentuan besar sudut dalam segitiga);</li>
+                            <li>Teorema Pythagoras;</li>
+                            <li>Kekongruenan dan kesebangunan bangun datar;</li>
+                            <li>Jaring-jaring bangun ruang (prisma, tabung, limas dan kerucut).</li>
+                        </ul>
+                    </td>
+                    <td rowspan="3" class="center-text">-</td>
+                </tr>
+                <tr>
+                    <td class="bold-text">Transformasi Geometri</td>
+                    <td>
+                        <p class="intro-text">Memahami, mengaplikasikan, dan bernalar yang lebih tinggi untuk menyelesaikan permasalahan terkait cakupan sub-elemen berikut:</p>
+                        <ul class="detail-list">
+                            <li>Transformasi tunggal (refleksi, translasi, rotasi, dan dilatasi) terhadap titik, garis, dan bangun datar pada bidang.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bold-text">Pengukuran</td>
+                    <td>
+                        <p class="intro-text">Memahami, mengaplikasikan, dan bernalar yang lebih tinggi untuk menyelesaikan permasalahan terkait cakupan sub-elemen berikut:</p>
+                        <ul class="detail-list">
+                            <li>Keliling dan luas bangun datar (daerah segi banyak dan daerah lingkaran, serta daerah gabungannya);</li>
+                            <li>Volume bangun ruang (prisma, limas, dan bola).</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2" class="center-text">4</td>
+                    <td rowspan="2" class="bold-text">Data dan Peluang</td>
+                    <td class="bold-text">Data</td>
+                    <td>
+                        <p class="intro-text">Memahami, mengaplikasikan, dan bernalar yang lebih tinggi untuk menyelesaikan permasalahan terkait cakupan sub-elemen berikut:</p>
+                        <ul class="detail-list">
+                            <li>Perumusan pertanyaan untuk mendapatkan data, serta penyajian, dan peginterpretasian data;</li>
+                            <li>Penentuan dan penaksiran rerata (mean), median, modus, dan jangkauan (range) dari data;</li>
+                            <li>Perbandingan ukuran pemusatan dan ukuran penyebaran beberapa kelompok data.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Penyajian data meliputi: diagram batang, diagram garis, diagram lingkaran, dan tabel.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bold-text">Peluang</td>
+                    <td>
+                        <p class="intro-text">Memahami, mengaplikasikan, dan bernalar yang lebih tinggi untuk menyelesaikan permasalahan terkait cakupan sub-elemen berikut:</p>
+                        <ul class="detail-list">
+                            <li>Peluang dan frekuensi relatif dari kejadian tunggal.</li>
+                        </ul>
+                    </td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+ <div id="contoh" class="tab-content" style="display: none;">
+    <div class="content-header">
+        <h2>Contoh Soal Matematika</h2>
+        <p>Ilustrasi bentuk soal Asesmen TKA SMP/MTs berdasarkan Level Kognitif</p>
+    </div>
+    
+    <div class="table-responsive">
+        <table class="examples-table">
+            <thead>
+                <tr>
+                    <th width="5%">No</th>
+                    <th width="20%">Materi & Level</th>
+                    <th width="75%">Stimulus & Pertanyaan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="center-text">1</td>
+                    <td>
+                        <div class="meta-tag topic">Bilangan Real</div>
+                        <div class="meta-tag level l3">Penalaran</div>
+                        <div class="meta-tag type">Pilihan Ganda Kompleks</div>
+                    </td>
+                    <td>
+                        <div class="question-box">
+                            <p>Terdapat tiga bilangan yang dinyatakan dengan:</p>
+                            <ul class="math-list">
+                                <li>(33<sup>2</sup> − 3<sup>2</sup>)</li>
+                                <li>(8<sup>2</sup> + 296)</li>
+                                <li>(36 × 35)</li>
+                            </ul>
+                            <p><strong>Pertanyaan:</strong><br>Bilangan apa saja yang merupakan faktor persekutuan ketiga bilangan tersebut?</p>
+                        </div>
+                        <div class="answer-box">
+                            <span class="badge-key"><i class="fas fa-key"></i> Kunci Jawaban:</span>
+                            Mencari faktor persekutuan dari hasil operasi bilangan tersebut.
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="center-text">2</td>
+                    <td>
+                        <div class="meta-tag topic">Perbandingan</div>
+                        <div class="meta-tag level l2">Aplikasi</div>
+                        <div class="meta-tag type">Pilihan Ganda</div>
+                    </td>
+                    <td>
+                        <div class="question-box">
+                            <p>Harga setengah kilogram cabe rawit pada hari ini adalah Rp35.000,00. Jika hari ini Ibu membeli cabe rawit seberat <strong>2&frac14; kg</strong>, total harga yang harus dibayar Ibu adalah...</p>
+                            <div class="options-grid">
+                                <div>A. Rp175.000,00</div>
+                                <div>B. Rp157.500,00</div>
+                                <div>C. Rp140.000,00</div>
+                                <div>D. Rp87.500,00</div>
+                            </div>
+                        </div>
+                        <div class="answer-box">
+                            <span class="badge-key"><i class="fas fa-key"></i> Kunci Jawaban:</span> <strong>B</strong> (Rp157.500,00)
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="center-text">3</td>
+                    <td>
+                        <div class="meta-tag topic">Aljabar (SPLDV)</div>
+                        <div class="meta-tag level l2">Aplikasi</div>
+                        <div class="meta-tag type">PGK (Benar/Salah)</div>
+                    </td>
+                    <td>
+                        <div class="question-box">
+                            <p>Misalkan <em>a</em> dan <em>b</em> merupakan dua bilangan real sehingga sistem persamaan linear (SPL):</p>
+                            <div class="equation-box">
+                                2x + ay = 4<br>
+                                bx - 2y = -1
+                            </div>
+                            <p>Mempunyai solusi (x, y) = (5, -2). Tentukan Benar atau Salah untuk pernyataan berikut:</p>
+                            
+                            <table class="pgk-table">
+                                <thead>
+                                    <tr>
+                                        <th>Pernyataan</th>
+                                        <th class="check-col">Benar</th>
+                                        <th class="check-col">Salah</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>a merupakan bilangan prima.</td>
+                                        <td class="check-col"><i class="fas fa-check-circle ans-check"></i></td>
+                                        <td class="check-col"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>b merupakan bilangan ganjil.</td>
+                                        <td class="check-col"><i class="fas fa-check-circle ans-check"></i></td>
+                                        <td class="check-col"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>10a + b = 31.</td>
+                                        <td class="check-col"></td>
+                                        <td class="check-col"><i class="fas fa-check-circle ans-check" style="color: #ef4444;"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </div>
+                        <div class="answer-box">
+                            <span class="badge-key"><i class="fas fa-key"></i> Kunci Jawaban:</span>
+                            Lihat tanda centang pada tabel di atas.
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="center-text">4</td>
+                    <td>
+                        <div class="meta-tag topic">Geometri (Sudut)</div>
+                        <div class="meta-tag level l2">Aplikasi</div>
+                        <div class="meta-tag type">PGK (Benar/Salah)</div>
+                    </td>
+                    <td>
+                        <div class="question-box">
+                            <p><strong>Stimulus: Desain Jembatan</strong></p>
+                            <p>Salah satu contoh desain jembatan tampak pada gambar:</p>
+                            
+                            <img src="Foto Jembatan soal 4.png" alt="Foto Jembatan" class="soal-img main-img">
+                            
+                            <p>Bagian rangka jembatan tersebut dapat digambarkan dengan sketsa garis sebagai berikut:</p>
+                            
+                            <img src="foto garis garis soal 4.png" alt="Sketsa Garis Jembatan" class="soal-img sketch-img">
+                            
+                            <p>Diketahui garis L1 sejajar dengan garis L2 dan garis L3 sejajar dengan garis L4. Jika besar sudut A adalah 50°, tentukan Benar atau Salah:</p>
+                            
+                            <table class="pgk-table">
+                                <thead>
+                                    <tr>
+                                        <th>Pernyataan</th>
+                                        <th class="check-col">Benar</th>
+                                        <th class="check-col">Salah</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Besar sudut D adalah 50°.</td>
+                                        <td class="check-col"><i class="fas fa-check-circle ans-check"></i></td>
+                                        <td class="check-col"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Besar sudut C dapat ditentukan dengan aturan sudut berpelurus (50°).</td>
+                                        <td class="check-col"></td>
+                                        <td class="check-col"><i class="fas fa-check-circle ans-check" style="color: #ef4444;"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sudut B dan E sama besar yaitu 130°.</td>
+                                        <td class="check-col"><i class="fas fa-check-circle ans-check"></i></td>
+                                        <td class="check-col"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </div>
+                        <div class="answer-box">
+                            <span class="badge-key"><i class="fas fa-key"></i> Kunci Jawaban:</span>
+                            Lihat tanda centang pada tabel di atas.
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="center-text">5</td>
+                    <td>
+                        <div class="meta-tag topic">Pengukuran (Luas)</div>
+                        <div class="meta-tag level l3">Penalaran</div>
+                        <div class="meta-tag type">Pilihan Ganda</div>
+                    </td>
+                    <td>
+                        <div class="question-box">
+                            <p>Pak Doni mempunyai rumah dengan tampak samping kanan sebagai berikut:</p>
+                            
+                            <img src="soal 5.png" alt="Denah Rumah" class="soal-img main-img">
+                            
+                            <p>Pak Doni ingin mengecat dinding samping rumah. Tersedia 4 merek cat dengan daya sebar berbeda:</p>
+                            <ul class="dashed-list">
+                                <li>Momilex (7 m²/kg)</li>
+                                <li>Josun (8 m²/kg)</li>
+                                <li>Bulux (10 m²/kg)</li>
+                                <li>Noppin (9 m²/kg)</li>
+                            </ul>
+                            <p>Supaya sisa cat yang dibeli paling sedikit, cat merek apakah yang sebaiknya dipilih?</p>
+                        </div>
+                        <div class="answer-box">
+                            <span class="badge-key"><i class="fas fa-key"></i> Kunci Jawaban:</span> <strong>C</strong> (Bulux)
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="center-text">6</td>
+                    <td>
+                        <div class="meta-tag topic">Data (Rerata)</div>
+                        <div class="meta-tag level l2">Aplikasi</div>
+                        <div class="meta-tag type">Pilihan Ganda</div>
+                    </td>
+                    <td>
+                        <div class="question-box">
+                            <p>Diketahui rata-rata berat telur: Kecil (45g), Sedang (55g), Besar (65g).</p>
+                            <p>Satu kemasan isi 10 butir harus memiliki rata-rata 55 gram. Jika kemasan sudah berisi: <strong>1 telur besar, 5 telur sedang, dan 2 telur kecil</strong>, maka dua telur tambahan yang harus dipilih adalah...</p>
+                             <div class="options-grid">
+                                <div>A. 2 telur sedang</div>
+                                <div>B. 2 telur besar</div>
+                                <div>C. 1 telur besar & 1 telur kecil</div>
+                                <div>D. 1 telur besar & 1 telur sedang</div>
+                            </div>
+                        </div>
+                        <div class="answer-box">
+                            <span class="badge-key"><i class="fas fa-key"></i> Kunci Jawaban:</span> <strong>D</strong> (1 telur besar dan 1 telur sedang)
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+        </div>
+    </section>
+
+ <div id="muatan" class="tab-content" style="display: none;">
+    <div class="text-content-wrapper">
+        <h3 class="text-title">Muatan</h3>
+        
+        <p class="text-paragraph">
+            Muatan TKA Matematika SMP/MTs/sederajat merujuk pada elemen kurikulum atau materi matematika yang dipelajari murid yang ada pada Kurikulum 2013 dan Kurikulum Merdeka. Elemen ini meliputi:
+        </p>
+        
+        <ul class="text-list">
+            <li>bilangan,</li>
+            <li>aljabar,</li>
+            <li>geometri dan pengukuran, serta</li>
+            <li>data dan peluang.</li>
+        </ul>
+        
+        <p class="text-paragraph">
+            Penggunaan logika matematika diintegrasikan langsung dengan elemen matematika yang tertera dalam kurikulum. Pengetahuan matematika diukur melalui permasalahan dalam konteks matematika dan permasalahan dalam konteks keseharian yang dapat meliputi kejadian atau situasi di lingkup personal, keluarga, atau lingkungan sekitar yang bersifat lokal.
+        </p>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h4>EduLearn</h4>
+                </div>
+                <p>Website untuk melatih Peserta didik Jenjang SMP Untuk Menghadapi Tes Kemampuan Akademik Matematika </p>
+                <p class="address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Jl. Semarang No. 5, Sumbersari, Kec. Lowokwaru <br>
+                    <span style="padding-left: 22px;">Kota Malang, Jawa Timur 65145</span>
+                </p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Link Cepat</h4>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Tentang TKA</a></li>
+                    <li><a href="kerangkaasesmen.html"><i class="fas fa-chevron-right"></i> Panduan Asesmen</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Download Materi</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Link Terkait</h4>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> ANBK</a></li>
+                    <li><a href="https://tka.kemendikdasmen.go.id/hasiltka/"><i class="fas fa-chevron-right"></i> Rapor Pendidikan</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Asesmen Nasional</a></li>
+                    <li><a href="https://pusmendik.kemdikbud.go.id/"><i class="fas fa-chevron-right"></i> Platform Pusmendik kemdikbud TKA</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Hubungi Kami</h4>
+                <ul class="contact-info">
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <span>(0341) 551312</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>helpdesk@um.ac.id</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <span>Senin - Jumat: 08.00 - 16.00 WIB</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 <strong>Universitas Negeri Malang</strong>. All Rights Reserved</p>
+            <div class="footer-links">
+                <a href="#">Kebijakan Privasi</a>
+                <a href="#">Syarat & Ketentuan</a>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="kerangkaasesmen.js"></script>
+</body>
+</html>
