@@ -999,7 +999,7 @@
 
 .level-badge.l1 { background: #4154f1; } /* Biru */
 .level-badge.l2 { background: var(--subject-blue); } /* Ungu/Biru Muda */
-.level-badge.l3 { background: var(--subject-red); } /* Merah */
+.level-badge.l3 { background: #4154f1; } /* Merah */
 
 /* Hover Effect pada Baris */
 .competency-table tbody tr:hover td:not(.level-cell) {
