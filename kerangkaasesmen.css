@@ -11,10 +11,19 @@
     --subject-orange: #FF8C42;
 }
 
+/* ===== NAVBAR OVERRIDE ===== */
+.nav-container {
+    padding: 10px 40px;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
 /* ===== BREADCRUMB SECTION ===== */
 .breadcrumb-section {
     background: linear-gradient(135deg, #012970 0%, #1e3a8a 100%);
-    padding: 100px 5% 60px;
+    padding: 48px 5% 48px;
     color: var(--white);
     position: relative;
     overflow: hidden;
@@ -41,9 +50,9 @@
 .breadcrumb {
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 25px;
-    font-size: 14px;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-size: 13px;
     opacity: 0.9;
 }
 
@@ -52,7 +61,7 @@
     transition: var(--transition);
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
 }
 
 .breadcrumb a:hover {
@@ -60,7 +69,7 @@
 }
 
 .breadcrumb i.fa-chevron-right {
-    font-size: 10px;
+    font-size: 9px;
     opacity: 0.6;
 }
 
@@ -69,22 +78,22 @@
 }
 
 .breadcrumb-section h1 {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 800;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
     animation: slideInDown 0.6s ease;
 }
 
 .breadcrumb-section p {
-    font-size: 20px;
-    opacity: 0.95;
+    font-size: 15px;
+    opacity: 0.88;
     animation: slideInUp 0.6s ease;
 }
 
 /* ===== TABS SECTION ===== */
 .tabs-section {
     padding: 0 5%;
-    margin-top: -40px;
+    margin-top: -24px;
     position: relative;
     z-index: 10;
 }
@@ -96,34 +105,34 @@
 
 .tabs-wrapper {
     background: var(--white);
-    border-radius: 15px;
-    padding: 10px;
+    border-radius: 12px;
+    padding: 8px;
     box-shadow: var(--shadow-lg);
     display: flex;
-    gap: 10px;
+    gap: 6px;
     overflow-x: auto;
 }
 
 .tab-btn {
     flex: 1;
-    min-width: 180px;
-    padding: 20px 25px;
+    min-width: 140px;
+    padding: 13px 18px;
     background: transparent;
     border: 2px solid transparent;
-    border-radius: 12px;
+    border-radius: 10px;
     cursor: pointer;
     transition: var(--transition);
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
-    font-size: 16px;
+    gap: 8px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--text-dark);
 }
 
 .tab-btn i {
-    font-size: 24px;
+    font-size: 18px;
     color: var(--primary-color);
 }
 
